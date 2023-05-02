@@ -24,7 +24,7 @@ const props = defineProps(["tasks"])
 }
 
 .sidebar__list {
-  overflow-y: auto;
+  overflow-y: hidden;
   height: calc(100% - 50px);
   max-height: calc(100vh - 200px);
   padding: 10px 40px;

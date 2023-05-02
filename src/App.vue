@@ -11,7 +11,10 @@
 import MyHeader from "@/components/MyHeader.vue";
 import MySidebar from "@/components/MySidebar.vue";
 import MyInfo from "@/components/MyInfo.vue";
+import {provide, ref} from "vue";
 
+const num = ref(1);
+provide("number", num);
 const tasks = [
   {number: 1, title: "SE121Q1.3"},
   {number: 2, title: "SE121Q2.2"},

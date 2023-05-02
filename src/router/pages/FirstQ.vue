@@ -37,8 +37,4 @@ input[type="radio"] + label {
   cursor: pointer;
   position: relative;
 }
-
-html body input[type="radio"]:checked + label:before {
-  background-color: red!important;
-}
 </style>

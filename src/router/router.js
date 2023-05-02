@@ -12,6 +12,7 @@ import eighthQ from "@/router/pages/EighthQ.vue";
 
 const routes = [
     {path: "/", component: firstQ},
+    {path: "/1", component: firstQ},
     {path: "/2", component: secondQ},
     {path: "/3", component: thirdQ},
     {path: "/4", component: fourthQ},

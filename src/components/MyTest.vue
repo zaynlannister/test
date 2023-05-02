@@ -5,15 +5,40 @@
       <div class="mb-3">{{ props.question }}</div>
       <slot></slot>
       <div class="task__action flex justify-between">
-        <button class="btn prev-btn">Previous Question</button>
-        <button class="btn next-btn">Next Question</button>
+        <button @click="prev" class="btn prev-btn">Previous Question</button>
+        <button @click="next" class="btn next-btn">Next Question</button>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router'; // Импортируем объекты маршрутизации
+import { inject } from 'vue'
+
 const props = defineProps(["title", "question"])
+
+const router = useRouter();
+
+const number = inject('number');
+
+function next() {
+  if (number.value === 8) {
+    number.value = 8;
+  } else {
+    number.value++
+    router.push(`/${number.value}`);
+  }
+}
+
+function prev() {
+  if (number.value === 1) {
+    number.value = 1;
+  } else {
+    number.value--
+    router.push(`/${number.value}`);
+  }
+}
 </script>
 
 <style lang="scss" scoped>
