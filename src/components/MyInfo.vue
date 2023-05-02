@@ -1,7 +1,7 @@
 <template>
   <div class="cont">
-    <div class="info flex justify-between">
-      <div class="info__text text-lg font-medium text-slate-600">BS_SE132_FinalAssessment</div>
+    <div class="info flex justify-between items-center">
+      <div class="info__text text-lg font-medium text-slate-600">BS_SE132_MidTermAssessment</div>
       <div class="info-questions text-base font-medium text-slate-600">Question 1/35</div>
       <div class="info__time flex items-center">
         <div class="flex items-center mr-5">
@@ -23,7 +23,7 @@
 .cont {
   padding-top: 60px;
   background-color: #ffff;
-  box-shadow: 0 6px 11px -6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px 0 rgba(51,51,51,0.2);
 }
 
 .info {

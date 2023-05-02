@@ -1,9 +1,10 @@
 <template>
   <div>
-<!--    <my-sidebar/>-->
+    <my-sidebar/>
     <my-header/>
     <my-info/>
 <!--    <my-test/>-->
+    <router-view></router-view>
   </div>
 </template>
 
