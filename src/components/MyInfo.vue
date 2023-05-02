@@ -2,7 +2,7 @@
   <div class="cont">
     <div class="info flex justify-between items-center">
       <div class="info__text text-lg font-medium text-slate-600">BS_SE132_MidTermAssessment</div>
-      <div class="info-questions text-base font-medium text-slate-600">Question {{number}}/35</div>
+      <div class="info-questions text-base font-medium text-slate-600">Question {{number}}/28</div>
       <div class="info__time flex items-center">
         <div class="flex items-center mr-5">
           <img class="mr-2 mt-1 opacity-60" width="16px" height="10px" src="@/assets/time.png">
