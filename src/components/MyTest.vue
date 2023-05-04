@@ -13,30 +13,30 @@
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router'; // Импортируем объекты маршрутизации
+import { useRouter } from 'vue-router' // Импортируем объекты маршрутизации
 import { inject } from 'vue'
 
-const props = defineProps(["title", "question"])
+const props = defineProps(['title', 'question'])
 
-const router = useRouter();
+const router = useRouter()
 
-const number = inject('number');
+const number = inject('number')
 
 function next() {
-  if (number.value === 8) {
-    number.value = 8;
+  if (number.value === 10) {
+    number.value = 1
   } else {
     number.value++
-    router.push(`/${number.value}`);
+    router.push(`/${number.value}`)
   }
 }
 
 function prev() {
   if (number.value === 1) {
-    number.value = 1;
+    number.value = 10
   } else {
     number.value--
-    router.push(`/${number.value}`);
+    router.push(`/${number.value}`)
   }
 }
 </script>
@@ -52,7 +52,7 @@ function prev() {
   padding: 30px;
   border-radius: 6px;
   background-color: #ffff;
-  box-shadow: 0 1px 3px 0 rgba(51,51,51,0.2);
+  box-shadow: 0 1px 3px 0 rgba(51, 51, 51, 0.2);
 
   &__action {
     padding-top: 30px;
