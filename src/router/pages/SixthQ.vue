@@ -1,7 +1,7 @@
 <template>
   <div>
     <my-test
-      title="SE121Q3.2"
+      title="MAT111Q12.2"
       question="Suppose the vector  is given in the polar form. First, rewrite this vector in matrix form. Then, find the values of the coordinates of the new vector "
     >
       <div class="ml-5">

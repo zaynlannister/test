@@ -1,7 +1,7 @@
 <template>
   <div>
     <my-test
-      title="SE121Q1.3"
+      title="MAT111Q13.6"
       question="Find the Cartesian form of the vector OA, whose polar form is OA = 4cos(60)i - 4sin(60)."
     >
       <div class="ml-5">
@@ -16,10 +16,6 @@
         <div class="mb-1">
           <input type="radio" id="option3" name="radio-group" />
           <label class="ml-2 absolute bottom-0.5" for="option3">OA = 4√3i - 2j</label>
-        </div>
-        <div>
-          <input type="radio" id="option4" name="radio-group" />
-          <label class="ml-2 absolute bottom-0.5" for="option4">OA = 5√3i - 4j</label>
         </div>
       </div>
     </my-test>

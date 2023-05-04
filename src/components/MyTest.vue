@@ -18,12 +18,14 @@ import { inject } from 'vue'
 
 const props = defineProps(['title', 'question'])
 
+console.log(props.title)
+
 const router = useRouter()
 
 const number = inject('number')
 
 function next() {
-  if (number.value === 16) {
+  if (number.value === 13) {
     number.value = 1
     router.push(`/${number.value}`)
   } else {

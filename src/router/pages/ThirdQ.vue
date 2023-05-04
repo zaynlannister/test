@@ -1,25 +1,17 @@
 <template>
   <div>
     <my-test
-      title="SE121Q3.2"
+      title="MAT111Q32.8"
       question="Suppose the vector  is given in the polar form. First, rewrite this vector in matrix form. Then, find the values of the coordinates of the new vector "
     >
       <div class="ml-5">
         <div class="mb-1">
           <input type="radio" id="option1" name="radio-group" />
-          <label class="ml-2 absolute bottom-0.5" for="option1">[ 2√ + 3√(1,1) ]</label>
+          <label class="ml-2 absolute bottom-0.5" for="option1">true</label>
         </div>
         <div class="mb-1">
           <input type="radio" id="option2" name="radio-group" />
-          <label class="ml-2 absolute bottom-0.5" for="option2">[ 6√ + 2√(0,1) ]</label>
-        </div>
-        <div class="mb-1">
-          <input type="radio" id="option3" name="radio-group" />
-          <label class="ml-2 absolute bottom-0.5" for="option3">[ 6√ + 2√(2,1) ]</label>
-        </div>
-        <div>
-          <input type="radio" id="option4" name="radio-group" />
-          <label class="ml-2 absolute bottom-0.5" for="option4">None of above</label>
+          <label class="ml-2 absolute bottom-0.5" for="option2">false</label>
         </div>
       </div>
     </my-test>
