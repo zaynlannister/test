@@ -4,7 +4,7 @@
       <div
         v-for="task in tasks"
         :key="task.title"
-        :class="{ active: task.completed }"
+        :class="{ active: task.completed, inactive: task.number === number }"
         class="sidebar__tasks pb-4"
       >
         <span v-if="task.completed" class="sidebar__dot"></span>
@@ -36,6 +36,10 @@ watch(number, () => {
 <style lang="scss" scoped>
 .active {
   opacity: 0.6;
+}
+
+.inactive {
+  opacity: 0.9;
 }
 
 .sidebar__dot {
