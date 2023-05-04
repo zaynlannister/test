@@ -11,6 +11,12 @@ import seventhQ from '@/router/pages/SeventhQ.vue'
 import eighthQ from '@/router/pages/EighthQ.vue'
 import ninethQ from '@/router/pages/NinethQ.vue'
 import tenthQ from '@/router/pages/TenthQ.vue'
+import eleventhQ from '@/router/pages/EleventhQ.vue'
+import twelvethQ from '@/router/pages/Twelveth.vue'
+import thirteenthQ from '@/router/pages/Thirteenth.vue'
+import fourteenthQ from '@/router/pages/Fourteenth.vue'
+import fifteenthQ from '@/router/pages/Fifteenth.vue'
+import sixteenQ from '@/router/pages/Sixteenth.vue'
 
 const routes = [
   { path: '/', component: firstQ },
@@ -23,7 +29,13 @@ const routes = [
   { path: '/7', component: seventhQ },
   { path: '/8', component: eighthQ },
   { path: '/9', component: ninethQ },
-  { path: '/10', component: tenthQ }
+  { path: '/10', component: tenthQ },
+  { path: '/11', component: eleventhQ },
+  { path: '/12', component: twelvethQ },
+  { path: '/13', component: thirteenthQ },
+  { path: '/14', component: fourteenthQ },
+  { path: '/15', component: fifteenthQ },
+  { path: '/16', component: sixteenQ }
 ]
 
 const router = createRouter({

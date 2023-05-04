@@ -1,7 +1,12 @@
 <template>
   <div class="cont">
     <div class="sidebar__list">
-      <div v-for="task in tasks" :key="task.title" class="sidebar__tasks pb-4">
+      <div
+        v-for="task in tasks"
+        :key="task.title"
+        :class="{ active: task.completed }"
+        class="sidebar__tasks pb-4"
+      >
         <span v-if="task.completed" class="sidebar__dot"></span>
         <span v-if="task.number === number" class="sidebar__dot sidebar__dot-blue"></span>
         <span class="font-medium inline-block w-7 cursor-pointer">
@@ -29,6 +34,10 @@ watch(number, () => {
 </script>
 
 <style lang="scss" scoped>
+.active {
+  opacity: 0.6;
+}
+
 .sidebar__dot {
   position: absolute;
   left: -20px;

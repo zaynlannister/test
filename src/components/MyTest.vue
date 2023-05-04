@@ -23,7 +23,7 @@ const router = useRouter()
 const number = inject('number')
 
 function next() {
-  if (number.value === 10) {
+  if (number.value === 16) {
     number.value = 1
     router.push(`/${number.value}`)
   } else {
