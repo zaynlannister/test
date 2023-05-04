@@ -25,6 +25,7 @@ const number = inject('number')
 function next() {
   if (number.value === 10) {
     number.value = 1
+    router.push(`/${number.value}`)
   } else {
     number.value++
     router.push(`/${number.value}`)
@@ -33,7 +34,7 @@ function next() {
 
 function prev() {
   if (number.value === 1) {
-    number.value = 10
+    number.value = 1
   } else {
     number.value--
     router.push(`/${number.value}`)
