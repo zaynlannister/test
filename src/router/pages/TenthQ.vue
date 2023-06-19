@@ -1,7 +1,7 @@
 <template>
   <div>
     <my-test
-      title="MAT111Q22.2"
+      title="SE141Q22.2"
       question="Find the Cartesian form of the vector OA, whose polar form is OA = 4cos(60)i - 4sin(60)."
     >
       <div class="ml-5">

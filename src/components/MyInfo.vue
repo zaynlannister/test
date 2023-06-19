@@ -1,9 +1,11 @@
 <template>
   <div class="cont">
     <div class="info flex justify-between items-center">
-      <div class="info__text text-lg font-medium text-slate-600">BS_SE132_MidTermAssessment</div>
+      <div class="info__text text-lg font-medium text-slate-600">
+        BS_SE141_Final Assessment (Structure)
+      </div>
       <div v-if="number > 0" class="info-questions text-base font-medium text-slate-600">
-        Question {{ number }}/28
+        Question {{ number }}/40
       </div>
       <div v-else class="info-questions text-base font-medium text-slate-600">Question 1/28</div>
       <div class="info__time flex items-center">

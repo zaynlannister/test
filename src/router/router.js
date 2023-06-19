@@ -35,7 +35,11 @@ const routes = [
   { path: '/13', component: thirteenthQ },
   { path: '/14', component: fourteenthQ },
   { path: '/15', component: fifteenthQ },
-  { path: '/16', component: sixteenQ }
+  { path: '/16', component: sixteenQ },
+  { path: '/17', component: ninethQ },
+  { path: '/18', component: twelvethQ },
+  { path: '/19', component: fifthQ },
+  { path: '/20', component: firstQ }
 ]
 
 const router = createRouter({

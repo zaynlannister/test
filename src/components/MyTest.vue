@@ -25,7 +25,7 @@ const router = useRouter()
 const number = inject('number')
 
 function next() {
-  if (number.value === 13) {
+  if (number.value === 20) {
     number.value = 1
     router.push(`/${number.value}`)
   } else {

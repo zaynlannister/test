@@ -1,7 +1,7 @@
 <template>
   <div>
     <my-test
-      title="MAT111Q22.1"
+      title="SE141Q22.1"
       question="A triangle that has its vertices in the coordinates (2,0), (0,2) is rotated clockwise by  degrees about the origin of a Cartesian coordinate system. What are the coordinate values of the triangle after rotating it?"
     >
       <div class="ml-5">
