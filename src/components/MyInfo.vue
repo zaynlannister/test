@@ -2,12 +2,12 @@
   <div class="cont">
     <div class="info flex justify-between items-center">
       <div class="info__text text-lg font-medium text-slate-600">
-        BS_SE141_Final Assessment (Structure)
+        BS_SE141_Final Assessment (Programming)
       </div>
       <div v-if="number > 0" class="info-questions text-base font-medium text-slate-600">
-        Question {{ number }}/40
+        Question {{ number }}/33
       </div>
-      <div v-else class="info-questions text-base font-medium text-slate-600">Question 1/28</div>
+      <div v-else class="info-questions text-base font-medium text-slate-600">Question 1/33</div>
       <div class="info__time flex items-center">
         <div class="flex items-center mr-5">
           <img class="mr-2 mt-1 opacity-60" width="16px" height="10px" src="@/assets/time.png" />
